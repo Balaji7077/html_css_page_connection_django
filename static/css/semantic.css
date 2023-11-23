@@ -1,0 +1,97 @@
+*
+{
+	margin:0px;	
+}
+header,footer
+{
+	background:linear-gradient(90deg,rgb(59, 199, 176),rgb(165, 173, 70));
+	padding:10px;
+}
+header>h1
+{
+	color:rgb(12, 11, 11);
+}
+header>h1::first-letter
+{
+	color:orange;
+	font-size:50px;
+}
+
+/*Main Navbar*/
+nav
+{
+	background:linear-gradient(90deg,darkslategrey,cyan);
+	text-align:center;
+	padding:10px;
+}
+nav>a 
+{
+	color:rgb(6, 5, 5);
+	text-decoration:none;
+	margin:20px;
+	padding:5px 10px;
+	border-radius:10px;
+}
+nav>a:hover
+{
+	box-shadow:0 0 10px white;
+}
+.active 
+{
+	background-color:black;
+	color:white;
+}
+
+/*Main Sidebar*/
+aside
+{
+	background:linear-gradient(180deg,orange,red,green);
+	width:200px;
+	height:100vh;
+	text-align:center;
+	float:left;
+}
+aside>a 
+{
+	color:white;
+	display:block;
+	position:relative;
+	top:25px;
+	margin-bottom:100px;
+	text-decoration:none;
+}
+aside>a:hover
+{
+	text-decoration:underline;
+}
+
+/*Main Section*/
+section	
+{
+	margin-left:200px;
+	background:rgb(208, 86, 10);
+	padding:20px;
+}
+section>h2
+{
+	color:white;
+}
+section>article
+{
+	background-color:cyan;
+	padding:10px;
+	margin-bottom:10px;
+	border-radius: 10px;
+	border-color: black;
+	border-style:outset;
+}
+/*Main Footer*/
+footer
+{
+	text-align:center;
+	color:white;
+}
+footer>h2
+{
+
+}
